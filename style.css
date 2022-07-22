@@ -175,7 +175,7 @@ article .information {
 
     body{
         height: auto;
-        width: auto;
+        width: fit-content;
         padding-left: 0px;
         padding: auto;
         background-image: url('wave.png') ;
@@ -183,11 +183,11 @@ article .information {
         background-size: cover;
     }
 
-
     .basicInformation {
         padding-top: 50px;
         display: block;
         text-align: center;
+        width: fit-content;
         
     }
     
@@ -206,7 +206,7 @@ article .information {
     .likes {
         display: block;
         justify-content: center;
-        margin: auto;
+        margin: 0px;
         padding: auto;
         text-align: center;
         border: solid;
@@ -222,6 +222,7 @@ article .information {
         text-align: center;
         background-color: slateblue;
         border-radius: 30px;
+    
     }
     
     #like h3 {
@@ -272,21 +273,21 @@ article .information {
     }
     
     .sns {
-        width: 100%;
+        width: fit-content;
         display: inline-flex;
-        margin: none;
+        margin-right: 0px;
     }
     
     #insta {
-        width: 20px;
+        width: 15px;
     }
 
     #blank1 {
-        width: 20px;
+        width: 15px;
     }
 
     #blank2 {
-        width: 20px;
+        width: 15px;
     }
 
     #insta img{
