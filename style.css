@@ -170,3 +170,135 @@ article .information {
     width: 40%;
     
 }
+
+@media (max-width:800px) {
+
+    body{
+        height: auto;
+        width: auto;
+        padding-left: 0px;
+        padding: auto;
+        background-image: url('wave.png') ;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+    .basicInformation {
+        padding-top: 50px;
+        display: block;
+        text-align: center;
+        
+    }
+    
+    img {
+        width: 300px;
+        border-radius: 100px;
+        margin : 100px 100px 100px 100px;
+    }
+    
+    article .information {
+        margin : 0px 100px 100px 100px;
+        font-size: 30px;
+        display: block;
+    }
+    
+    .likes {
+        display: block;
+        justify-content: center;
+        margin: auto;
+        padding: auto;
+        text-align: center;
+        border: solid;
+        border-radius: 100px;
+        border-color: rgb(104, 150, 14);
+    }
+    
+    #like {
+        margin: auto;
+        font-size: 30px;
+        width: 100px;
+        height: 50px;
+        text-align: center;
+        background-color: slateblue;
+        border-radius: 30px;
+    }
+    
+    #like h3 {
+        margin-top: 5px;
+    }
+    
+    #likelist {
+        margin: auto;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .likes ul li {
+        display: inline;
+    }
+    
+    
+    .goals {
+        margin-top: 50px;
+        padding: auto;
+        display: block;
+        height: 200px;
+        justify-content: center;
+        border: solid;
+        border-radius: 100px;
+        border-color: rgb(104, 150, 14);
+    }
+    
+    #goal {
+        margin: auto;
+        font-size: 30px;
+        width: 100px;
+        height: 50px;
+        text-align: center;
+        background-color: slateblue;
+        border-radius: 30px;
+    }
+    
+    #goal h3 {
+        margin-top: 5px;
+    }
+    
+    #goallist {
+        margin: auto;
+        display: inline;
+        text-align: center;
+        font-size: 30px;
+    }
+    
+    .sns {
+        width: 100%;
+        display: inline-flex;
+        margin: none;
+    }
+    
+    #insta {
+        width: 20px;
+    }
+
+    #blank1 {
+        width: 20px;
+    }
+
+    #blank2 {
+        width: 20px;
+    }
+
+    #insta img{
+        width: 10%;
+    }
+    
+    #blank1 img{
+        width: 10%;
+    }
+    
+    #blank2 img{
+        width: 10%;
+        
+    }
+}
